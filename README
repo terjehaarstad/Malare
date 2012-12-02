@@ -1,0 +1,20 @@
+# Malare
+
+Malare is a Malware Database to help you organize samples received and analyzed. 
+It will store information like filename, md5sum, source from where the file got downloaded,
+Domain name of the C&C, IP address and other notes in a SQLite database. One can list the 
+whole database or search for samples based on filename, C&C or md5sum.
+
+Malare saves all binary-samples added to database in its own folder.
+
+
+# Installation
+
+## SQLite3
+On debian based linux distributions install sqlite3 and sqlite3-dev from repository.
+sudo apt-get install sqlite3 sqlite3-dev
+
+## Malare
+gem build malare.gemspec
+sudo gem install malare-VERSION.gem
+
