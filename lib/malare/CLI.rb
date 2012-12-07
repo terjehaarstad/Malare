@@ -37,7 +37,7 @@ module Malare
 			begin
 				@options = {}
 				opts = OptionParser.new do |opts|
-					opts.banner = "#{Malare::APP_NAME} v.#{Malare::VERSION} - A Malware database."
+					opts.banner = "#{Malare::APP_NAME} v.#{Malare::VERSION} - A Malware database by Terje Haarstad."
 					opts.separator("------------------------------------------")
 					opts.separator("Usage: #{$0} OPTIONS ")
 					opts.separator("Options:")
